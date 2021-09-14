@@ -1,17 +1,30 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <img alt="Vue logo" src="./assets/logo.png" />
+  <h1>toggle-switch-button-vue : demo</h1>
+  <br />
+  <br />
+  <br />
+  <br />
+  <div>
+    <ToggleSwitchButton v-model="this.isActive" label="ON|OFF" />
+  </div>
+  <h1>{{ isActive }}</h1>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import ToggleSwitchButton from "./components/toggle-switch-button.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
+    ToggleSwitchButton
+  },
+  data() {
+    return {
+      isActive: true
+    };
   }
-}
+};
 </script>
 
 <style>
