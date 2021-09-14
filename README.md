@@ -7,8 +7,8 @@
 
 
 
-![](./src/assets/toggleswitchbuttonoff.png)
-![](./src/assets/toggleswitchbuttonon.png)
+![](https://raw.githubusercontent.com/developergovindgupta/toggle-switch-button-vue/master/src/assets/toggleswitchbuttonoff.png)
+![](https://raw.githubusercontent.com/developergovindgupta/toggle-switch-button-vue/master/src/assets/toggleswitchbuttonon.png)
 
 
 
@@ -31,7 +31,7 @@ copy following code and run on CLI
 # How to use 
 Example Code 
 
-[download from gitHub](https://github.com/developergovindgupta/multi-range-slider-vue-demo "download from gitHub")
+[download from gitHub](https://github.com/developergovindgupta/toggle-switch-button-vue "download from gitHub")
 
 
 ## usase
@@ -72,7 +72,7 @@ Example Code
 	  
 	  
 ## View Demo
-[View Demo]()
+[View Demo](https://codesandbox.io/s/toggle-switch-button-vue-ko6yz?file=/src/App.vue)
 
 ## License Free
 
